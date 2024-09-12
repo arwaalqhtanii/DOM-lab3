@@ -1,0 +1,89 @@
+ /*.box {
+    border: 2px solid #c940ae;
+    padding: 3vh; 
+    width: 30vh;  
+    text-align: center;
+    margin: 2vh auto;
+    color: #c940ae;
+    font-family: Arial, sans-serif; 
+   
+}
+
+button {
+    margin: 2vh; 
+    padding: 2vh; 
+    width: 20vh; 
+    color: #c940ae;
+    border: 2px solid #c940ae;
+    background-color: #f8d5f1;
+    border-radius: 9px;
+    cursor: pointer; 
+   
+ 
+}
+
+button:hover {
+    background-color: #f6cff9; 
+}
+
+button:active {
+    background-color: #c940ae; 
+}
+    */
+
+ .box {
+
+
+     border: 2px solid #c940ae;
+     padding: 3vh;
+     width: 50vh;
+     text-align: center;
+     margin: 2vh auto;
+     color: #c940ae;
+     font-family: Arial, sans-serif;
+
+
+
+ }
+ button {
+    margin: 2vh; 
+    padding: 2vh; 
+    width: 40vh; 
+    color: #c940ae;
+    border: 2px solid #c940ae;
+    background-color: #f8d5f1;
+ 
+   
+ 
+}
+
+
+ .button3::after {
+    content: "Name";
+  
+}
+
+.button3:hover::after {
+    content: "Arwa";
+}
+
+ .button1::after {
+     content: "Age ";
+     padding: 40px;
+ }
+
+ .button1:hover::after {
+     content: "24";
+ }
+
+
+ .button2::after {
+     content: "Id";
+
+ }
+
+ .button2:hover::after {
+     content: "10001991";
+ }
+
+
